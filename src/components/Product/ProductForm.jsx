@@ -64,7 +64,7 @@ export default function ProductForm({ selectedProduct, onSuccess }) {
             />
 
             <input
-                name="Preço"
+                name="price"
                 type="number"
                 placeholder="preço"
                 value={formData.price}
